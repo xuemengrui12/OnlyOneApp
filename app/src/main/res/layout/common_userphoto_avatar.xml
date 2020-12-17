@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
+
+    <LinearLayout
+        android:id="@+id/userphoto_avatar_layout_page_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block1"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block2"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block3"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block4"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userphoto_avatar_layout_page_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block5"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block6"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block7"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/userphoto_avatar_layout_photo_block8"
+            layout="@layout/include_userphoto_avatar_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
